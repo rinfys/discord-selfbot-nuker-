@@ -23,7 +23,12 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     // Use the JUnit 5 integration.
     testImplementation(libs.junit.jupiter.engine)
+    implementation("org.json:json:20210307")
     implementation("com.squareup.okhttp3:okhttp:4.9.3")
+    implementation("io.ktor:ktor-client-core:1.6.7")
+    implementation("io.ktor:ktor-client-okhttp:1.6.7")
+    implementation("io.ktor:ktor-client-json:1.6.7")
+    implementation("io.ktor:ktor-client-json-jvm:1.6.7")
 
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
