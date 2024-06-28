@@ -24,6 +24,7 @@ dependencies {
     // Use the JUnit 5 integration.
     testImplementation(libs.junit.jupiter.engine)
     implementation("org.json:json:20210307")
+    implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.3")
     implementation("com.squareup.okhttp3:okhttp:4.9.3")
     implementation("io.ktor:ktor-client-core:1.6.7")
     implementation("io.ktor:ktor-client-okhttp:1.6.7")
